@@ -20,5 +20,58 @@ Key Features:
 - Optimize FPS performance with GPU acceleration or smaller frame sizes
 - Add analytics dashboard to track compliance over time
   
+<<<<<<< HEAD
 Tags
 Python, YOLOv8, Object Detection, Computer Vision, Tkinter, Machine Learning, ID Lace Detection, Colegio de Montalban, Real-time Monitoring
+=======
+# Setup & Usage (Windows)
+1️⃣ Clone the repository
+git clone https://github.com/SpacyBen/Colegio-De-montalban-ID-lace-tracker.git
+cd Colegio-De-montalban-ID-lace-tracker (or wheres your location at)
+2️⃣ Create a virtual environment
+python -m venv venv
+3️⃣ Activate the virtual environment
+Option A: PowerShell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+venv\Scripts\Activate.ps1
+Option B: Command Prompt
+venv\Scripts\activate.bat
+
+- to know what kind of terminal you have
+1. Open VS Code and your project folder (C:\ your location)
+2. Open the terminal in VS Code
+Shortcut: `Ctrl + `` (backtick)
+Or menu: View → Terminal
+4. Check which shell VS Code is using (top-right corner of the terminal)
+If it says PowerShell → we need to temporarily allow scripts.
+If it says Command Prompt (cmd) → we can use .bat activation instead.
+
+4️⃣ Install dependencies
+pip install ultralytics torch numpy opencv-python mss pillow
+5️⃣ Download / place your model
+Place your best.pt YOLOv8 model in the project folder or update the path in run.py:
+model = YOLO(r"best.pt")
+6️⃣ Run the application
+python run.py
+
+How to Use
+🎥 Webcam: Monitor students live
+🖥 Screen Share: Detect ID laces from videos or desktop streams
+📁 Choose Image: Analyze static photos
+❌ Exit: Close the application
+
+# 🛠 How I Built This / References
+- This ID lace detection project is based on object detection principles taught by Edje Electronics:
+- YouTube Tutorial: Edje Electronics - YOLO Object Detection (LINK: https://www.youtube.com/watch?v=r0RspiLG260&t=699s)
+- Labeling Tool: I used Roboflow to label my images/data. (Edje used LabelStudio; both achieve the same purpose.)
+- Training: The YOLOv8 model was trained on Google Colab using Edje’s easy-to-follow script: Train YOLO Models on Colab (LINK: https://colab.research.google.com/github/EdjeElectronics/Train-and-Deploy-YOLO-Models/blob/main/Train_YOLO_Models.ipynb)
+
+# Workflow Overview:
+- Collect and label images (Roboflow).
+- Train YOLOv8 model on Colab using Edje’s script.
+- Export the trained model (best.pt) and place it in the project folder.
+- Run the Tkinter-based application for real-time ID lace detection.
+
+Tags
+Python, YOLOv8, Object Detection, Computer Vision, Tkinter, Machine Learning, ID Lace Detection, Colegio de Montalban, Real-time Monitoring
+>>>>>>> dcc18e1 (Initial commit - add code, README, model, and images)
