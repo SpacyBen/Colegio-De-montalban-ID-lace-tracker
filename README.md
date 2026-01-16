@@ -3,7 +3,7 @@ This project is a real-time machine learning application that detects whether st
 It uses YOLOv8 for object detection and OpenCV for video processing, supporting multiple input sources:
 
 - Webcam: Live classroom monitoring
-- Screen Share: Detect ID laces from desktop/video streams
+- Screen Share: Detect ID laces only from desktop/video streams
 - Image Upload: Analyze static photos
 
 The system provides visual feedback, highlighting detected ID laces and allowing schools to monitor compliance with ID-wearing policies efficiently.
@@ -73,6 +73,7 @@ How to Use
 - Train YOLOv8 model on Colab using Edje’s script.
 - Export the trained model (best.pt) and place it in the project folder.
 - Run the Tkinter-based application for real-time ID lace detection.
-
+# Images
+![Alt text](images/example.png)
 Tags
 Python, YOLOv8, Object Detection, Computer Vision, Tkinter, Machine Learning, ID Lace Detection, Colegio de Montalban, Real-time Monitoring
