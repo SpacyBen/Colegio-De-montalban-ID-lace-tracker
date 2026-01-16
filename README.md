@@ -30,13 +30,13 @@ Key Features:
 
     - python -m venv venv
     
-3️⃣ Activate the virtual environment
+3️⃣ Activate the virtual environment on VSCODE
 
     - Option A: PowerShell
-    - Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-    - venv\Scripts\Activate.ps1
+    use this command on Terminal: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+    use this command on Terminal: venv\Scripts\Activate.ps1
     - Option B: Command Prompt
-    - venv\Scripts\activate.bat
+    use this command on Terminal: venv\Scripts\activate.bat
     
 
       - to know what kind of terminal you have
