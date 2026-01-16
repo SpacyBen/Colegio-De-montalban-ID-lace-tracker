@@ -33,10 +33,10 @@ Key Features:
 3️⃣ Activate the virtual environment on VSCODE
 
     - Option A: PowerShell
-    use this command on Terminal: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-    use this command on Terminal: venv\Scripts\Activate.ps1
+      use this command on Terminal: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+      use this command on Terminal: venv\Scripts\Activate.ps1
     - Option B: Command Prompt
-    use this command on Terminal: venv\Scripts\activate.bat
+      use this command on Terminal: venv\Scripts\activate.bat
     
 
       - to know what kind of terminal you have
