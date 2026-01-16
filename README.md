@@ -22,18 +22,18 @@ Key Features:
   
 # Setup & Usage (Windows)
 1️⃣ Clone the repository
-    git clone https://github.com/SpacyBen/Colegio-De-montalban-ID-lace-tracker.git
-    cd Colegio-De-montalban-ID-lace-tracker (or wheres your location at)
+    - git clone https://github.com/SpacyBen/Colegio-De-montalban-ID-lace-tracker.git
+    - cd Colegio-De-montalban-ID-lace-tracker (or wheres your location at)
     
 2️⃣ Create a virtual environment
-    python -m venv venv
+    - python -m venv venv
     
 3️⃣ Activate the virtual environment
-    Option A: PowerShell
-    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-    venv\Scripts\Activate.ps1
-    Option B: Command Prompt
-    venv\Scripts\activate.bat
+    - Option A: PowerShell
+    - Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+    - venv\Scripts\Activate.ps1
+    - Option B: Command Prompt
+    - venv\Scripts\activate.bat
     
 
     - to know what kind of terminal you have
@@ -46,12 +46,12 @@ Key Features:
     If it says Command Prompt (cmd) → we can use .bat activation instead.
 
 4️⃣ Install dependencies
-    pip install ultralytics torch numpy opencv-python mss pillow
+    - pip install ultralytics torch numpy opencv-python mss pillow
 5️⃣ Download / place your model
-    Place your best.pt YOLOv8 model in the project folder or update the path in run.py:
-    model = YOLO(r"best.pt")
+    - Place your best.pt YOLOv8 model in the project folder or update the path in run.py:
+    - model = YOLO(r"best.pt")
 6️⃣ Run the application
-    python run.py
+    - python run.py
 
 How to Use
 🎥 Webcam: Monitor students live
